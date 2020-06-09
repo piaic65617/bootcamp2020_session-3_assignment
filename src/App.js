@@ -1,7 +1,10 @@
 import React from 'react';
+import Student from './student';
 
 function App() {
-  return <div>Hello World from Faizan</div>
+  return <div className= "App">
+    <Student stName ="Muhammad Faizan" stAge={28}/>
+  </div>
 }
 
 export default App;
