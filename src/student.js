@@ -1,41 +1,22 @@
 import React from "react";
+import App from "./App";
+
+
 
 function Student(props){
     return <div>
          Hello <strong>{props.stName}</strong>!, age {props.stAge}
-        <h1>PIAIC CNC Specialist</h1>
-        <h2>A four-quarter computing program.</h2>
-        <ol >
-            <li>Quarter 1: A Cloud Native Computing Foundation.</li>
-            <ul>
-                <li>Introduction to CNC</li>
-                <li>Introduction to Linux & Bash</li>
-                <li>Docker</li>
-                <li>Kubernetes</li>
-            </ul>
-            <hr />
-            <li>Quarter 2: Introduction to Application Development.</li>
-            <ul>
-                <li>GIT</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-            </ul>
-            <hr />
-            <li>Quarter 3: Web & Mobile Application Development</li>
-            <ul>
-                <li>Javscript</li>
-                <li>MongoDB</li>
-                <li>Express</li>
-            </ul>   
-            <hr />
-            <li>Quarter 4: Advanced Web & Mobile Applicaton Development</li>
-            <ul>
-                <li>React</li>
-                <li>Node.js</li>
-            </ul>
-            <hr />
-        </ol>        
+        <div class="container">
+          <div class="bluebox"  id="fb">
+           <p>Batch 3 <span class="great">Q2</span></p> 
+          </div> 
+          <div class="blackbox">
+           <p>Roll No <span class="news"> PIAIC65617</span></p>   
+          </div> 
+          <div class="greybox">
+           <p><span class=" courses">Courses</span><span class="org"> : AIC & CNC</span></p> 
+          </div> 
+        </div>
     </div>
 }
 

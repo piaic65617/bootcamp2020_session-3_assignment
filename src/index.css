@@ -1,13 +1,61 @@
 body {
-  margin: 0;
+  margin: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: grid;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  display: grid;
+  background:aquamarine;
+  padding: 10px;
+  
+  
+}
+.bluebox{
+  background-color:#415E9B;
+  font-size: 20px;
+  color: white;
+  height: 100px;
+  margin-top: 10px;
+   }
+.blackbox{
+  background-color: rgb(21, 133, 123);
+  font-size: 20px;
+  color: white;
+  height: 100px;
+  padding-top: 10px;
+   }
+   .greybox{
+  background-color:#08124D;
+  font-size: 20px;
+  color: white;
+  height: 100px;
+  margin-bottom: 10px;
+   }
+.great{
+  background-color: rgb(50, 205, 89);
+  color: teal;
+}
+.news{
+  background-color:palevioletred ;
+  columns: auto 1px;;
+  height: auto;
+}
+/* .org{
+  background-color: peru;
+  color:red;
+  height: auto; */
+/* } */
+.courses{
+  background-color: peru;
+  color:red;
+  height: auto;
 }
