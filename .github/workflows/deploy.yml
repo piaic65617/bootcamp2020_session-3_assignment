@@ -29,9 +29,9 @@ jobs:
 
     - uses: borales/actions-yarn@v2.0.0
       with:
-          cmd: install # will run `yarn install` command
-
-    - name: Deploy yarn
+        cmd: install
+        
+    - name: Build React App
       run: yarn build
     
     - name: Install Surge
